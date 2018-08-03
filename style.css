@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #EEE;
+}
+
+.navBar {
+  height: 8vh;
+  background-color: gray;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+.navUl {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  list-style-type: none;
+}
+
+.navBar a {
+  text-decoration: none;
+}
+
+
+.navBar a {
+  color: white;
+}
+
+.navBar a:hover {
+  color: red;
+}
+
+.navBar a:active {
+  color: yellow;
+}
+
+.navBar a:visited {
+  color: green;
+}
+
+a li ul {
+  font-family: "open sans", sans-serif;
+}
