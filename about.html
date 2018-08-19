@@ -13,11 +13,12 @@
         </ul>
       </nav>
     </header>
-
-    <main role="main">
+    <!-- "Role" is from WC3's WAI-ARIA Spec, granting greater symantic meaning to current and older screen readers and other user agents -->
+    <!-- Itemscope, itemtype, and itemprop are from Schema.org's RDFa structured data spec to allow greater context for search engines -->
+    <main role="main" itemscope itemtype="http://schema.org/Person">
       <h2>A Designing Developer that Does</h2>
 
-      <p>Hello! I am David Kolia- a web developer with a photographer and design background based out of Chicago's historic Rogers Park. I enjoy learning how things are built, pondering on how to make them better, and staying organized while making them happen.</p>
+      <p>Hello! I am <span itemprop="name">David Kolia</span>- a web developer with a photographer and design background based out of Chicago's historic Rogers Park. I enjoy learning how things are built, pondering on how to make them better, and staying organized while making them happen.</p>
 
       <p>My functional and accessible web designs stems from my years of graphic design and analog prepress skills. Thoughtful layout, composition, and design come from years of composing through the viewfinder of my film and digital SLR cameras.</p>
 
@@ -30,9 +31,9 @@
       <p>- David</p>
 
       <div role=contentinfo>
-        <p><strong>Phone:</strong> 630.415.7073</p>
-        <a href="https://www.linkedin.com/in/davidkolia/"><strong>Profile:</strong> LinkedIn</a>
-        <a href="mailto:DKolia@iCloud.com"><strong>Email:</strong> DKolia@iCloud.com</a>
+        <p><strong>Phone: </strong><span itemprop="telephone">630.415.7073</span></p>
+        <a href="https://www.linkedin.com/in/dkolia/" itemprop="url"><strong>Profile:</strong> LinkedIn</a>
+        <a href="mailto:DKolia@iCloud.com" itemprop="email"><strong>Email:</strong> DKolia@iCloud.com</a>
       </div>
     </main>
 
