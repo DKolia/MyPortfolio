@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: green;
+  background-color: aliceblue;
   max-width: 1600px;
 }
 
@@ -23,6 +23,7 @@ body {
   display: flex;
   justify-content: flex-end;
   flex-wrap: nowrap;
+  align-items: center;
 }
 
 .navBar a {
@@ -44,6 +45,7 @@ h1 {
 h2 {
     font-family: "Open Sans", sans-serif;
     color: #DDD;
+    font-size: 4em;
 }
 
 h3 {
