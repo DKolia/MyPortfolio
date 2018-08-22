@@ -42,37 +42,47 @@ body {
 } */
 
 
+
+
+
+/* Sets up nav container to fill the space, flex contents, and set their positions */
 nav {
   width: 100%;
+  background-color: black;
   display: flex;
   justify-content: space-between;
-  background-color: black;
   align-items: center;
+  filter: drop-shadow(5px, 5px, 0);
 }
 
+/* Virtuals and minimums to ensure consistent, but flexible and responsive sizing of icon */
 .navIcon {
   min-width: 7vw;
-  min-height: 5vh;
-  margin: 1%;
+  max-width: 7vw;
+  min-height: 7vh;
+  max-height: 7vh;
+  margin: 1.7%;
 }
 
-.navUl li{
-  margin-right: 1em;
-  display: inline-block;
-
-}
-
-.navUl a {
-  text-decoration: none;
-  color: aliceblue;
-
-}
-
+/* Font and sizing established */
 .navUl {
-  color: aliceblue;
   font-family: "Open Sans", sans-serif;
   font-size: 2em;
 }
+
+/* Positioning and styling for the li elements */
+.navUl li {
+  margin-right: 1em;
+  display: inline-block;
+}
+
+/* Removes defaults and adds styling */
+.navUl a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+
 
 
 
