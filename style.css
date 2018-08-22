@@ -2,15 +2,19 @@ body {
   margin: 0;
   padding: 0;
   background-color: aliceblue;
-  max-width: 1600px;
+}
+
+/* .nav1 {
+  display: flex;
 }
 
 .navBar {
   height: 8vh;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
-  background-color: #222;
+  background-color: black;
 }
 
 .navUl {
@@ -35,7 +39,45 @@ body {
 .navIcon {
   height: 100px;
   width: 100px;
+} */
+
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  align-items: center;
 }
+
+.navIcon {
+  min-width: 7vw;
+  min-height: 5vh;
+  margin: 1%;
+}
+
+.navUl li{
+  margin-right: 1em;
+  display: inline-block;
+
+}
+
+.navUl a {
+  text-decoration: none;
+  color: aliceblue;
+
+}
+
+.navUl {
+  color: aliceblue;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2em;
+}
+
+
+
+
+
 
 h1 {
   font-family: "Open Sans", sans-serif;
