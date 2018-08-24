@@ -6,7 +6,7 @@ body {
 
 
 
-
+/* Beginning of Header Styles */
 
 /* Sets up nav container to fill the space, flex contents, and set their positions */
 nav {
@@ -46,6 +46,9 @@ nav {
   color: aliceblue;
 }
 
+/* End of Header Styles */
+
+
 
 main {
   display: flex;
@@ -58,37 +61,42 @@ main {
 .card {
   min-width: 800px;
   width: 40vw;
-  margin-top: 6vw;
+  margin-top: 8vw;
   background-color: orange;
   display: flex;
-
   justify-content: center;
   flex-wrap: wrap;
   text-align: center;
+}
 
+.card img {
+  width: 100%;
 }
 
 
-.card h2 {
-
-}
 
 
 h1 {
   font-family: "Open Sans", sans-serif;
-  color: #DDD;
+  color: blue;
   width: 100%;
 }
 
 h2 {
     font-family: "Open Sans", sans-serif;
-    color: #DDD;
+    color: blue;
     font-size: 4em;
     width: 100%;
 }
 
 h3 {
     font-family: "Open Sans", sans-serif;
-    color: #DDD;
+    color: blue;
+    width: 100%;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    color: blue;
     width: 100%;
 }
