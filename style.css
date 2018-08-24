@@ -59,18 +59,16 @@ main {
 
 
 .card {
-  min-width: 800px;
+  min-width: 80%;
   width: 40vw;
   margin-top: 8vw;
   background-color: orange;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
   text-align: center;
 }
 
 .card img {
   width: 100%;
+  height: auto;
 }
 
 
