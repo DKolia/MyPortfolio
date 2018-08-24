@@ -51,7 +51,19 @@ nav {
 }
 
 
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
 
+.card {
+  min-width: 500px;
+  width: 800px;
+  margin: 10px;
+  background-color: orange;
+}
 
 
 h1 {
@@ -68,10 +80,4 @@ h2 {
 h3 {
     font-family: "Open Sans", sans-serif;
     color: #DDD;
-}
-
-.column {
-  width: 40vw;
-  height: 100vh;
-  background-color: black;
 }
